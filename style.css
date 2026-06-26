@@ -781,6 +781,15 @@ footer {
   color: var(--text-dim);
 }
 
+.footer-inner a {
+  color: var(--text-dim);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color var(--transition);
+}
+
+.footer-inner a:hover { color: var(--green); }
+
 /* ===== ROADMAPS ===== */
 .brand-tabs {
   display: flex;
